@@ -1,0 +1,208 @@
+.animate-bottom {
+    animation-name: animatebottom;
+    animation-duration: 1s;
+}
+
+@font-face {
+    font-family: 'Arame Mono Bold';
+    src: url('Arame Mono Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.custom-table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: none;
+}
+
+
+@keyframes animatebottom {
+    from {
+        bottom: -100px;
+        opacity: 0;
+    }
+    to {
+        bottom: 0;
+        opacity: 1;
+    }
+}
+
+.legend-row {
+    border: none;
+    color: white;
+    font-family: Arame Mono Bold;
+    font-size: 30px;
+    text-shadow: 1px 1px 2px black;
+    text-align: center;
+    background-image: url(assets/test.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #FFFFFF;
+}
+
+.team-row pulsing{
+    background-image: url("assets/test2.png");
+}
+
+.team-row {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+    width: 300px;
+    height: 45px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.dead-row {
+    filter: grayscale(100%);
+    color: white;
+    font-family: Arame Mono Bold;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px black;
+    height:40px;
+}
+
+.team-status-row{
+  height: 22px !important; /* Lock the height to 40px */
+}
+
+.team-row:not(.dead-row) {
+    filter: grayscale(0%);
+    color: white;
+    font-family: Arame Mono Bold;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px black;
+}
+
+.team-rank{
+    color: white;
+    font-family: Arame Mono Bold;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px black;
+    text-align: right;
+    padding-right: 20px;
+    padding-left: 10px;
+    display: flex; /* Enable flexbox layout */
+    justify-content: center; /* Horizontally center the content */
+    align-items: center;
+}
+
+.legend-logo{
+    width: 50px;
+
+}
+
+.legend-name{
+    color: #004066;
+    font-family: Arame Mono Bold;
+    font-size: 16px;
+    text-shadow: 1px 1px 2px white;
+    text-align: auto;
+    padding-left: 0px;
+}
+
+.legend-pts{
+    color: #004066;
+    font-family: Arame Mono Bold;
+    font-size: 16px;
+    text-shadow: 1px 1px 2px white;
+    padding-right: 0px;
+
+}
+
+.legend-eliminations{
+    width: 40px;
+    color: #004066;
+    font-family: Arame Mono Bold;
+    font-size: 16px;
+    text-shadow: 1px 1px 2px white;
+    padding-right: 5px;
+
+}
+
+.legend-status{
+    color: #004066;
+    font-family: Arame Mono Bold;
+    font-size: 16px;
+    text-shadow: 1px 1px 2px white;
+}
+
+.team-pts{
+    color: #004066;
+    font-family: Arame Mono Bold;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px white;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 30px;
+}
+
+.team-eliminations{
+    color: #004066;
+    font-family: Arame Mono Bold;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px white;
+    text-align: right;
+    padding: auto;
+    padding-left: 5px;
+}
+
+.team-name{
+    color: white;
+    font-family: Arame Mono Bold;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px black;
+    width: 100px;
+    max-width: 200px;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+
+.team-logo{
+    padding-left: 3px;
+    padding-right: 5px;
+    width: 35px;
+}
+
+.team-status{
+    height: 40px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+
+.final-row {
+    background-image: url("assets/bottom.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.final-row-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.final-image {
+    max-height: 40px; /* Adjust the height as needed */
+    width: 325px;
+}
+
+.team-status{
+    width: 15px;
+    height: 15px;
+}
+
+.team-status-container{
+    width: 40px;
+}
