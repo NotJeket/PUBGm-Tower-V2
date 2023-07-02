@@ -27,6 +27,8 @@ The Real-Time Damage Tracker is a web application built using the Dash framework
 - The program updates the data every 1 second.
 
 - Ability to customize fonts, backgrounds, and various visual modifications.
+  
+- Support for shortened Team Names with a .json file
 
 **Installation**:
 
