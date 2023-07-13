@@ -77,7 +77,7 @@ The Real-Time Damage Tracker is a web application built using the Dash framework
 
 **Flowchart**:
 
-![image](https://github.com/NotJeket/PUBGm-Tower-V2/assets/37781149/66e80d42-b4ca-4ec2-ab18-55bfb5712fdb)
+![code2flow_fKQ1Ml (2)](https://github.com/NotJeket/PUBGm-Tower-V2/assets/37781149/8d7e1111-5982-4444-9cae-6a0cb5f0877b)
 
 
 **License**:
